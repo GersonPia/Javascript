@@ -1,0 +1,153 @@
+/* Pagina Login*/
+#BL, #BR{
+  margin: 0;
+  padding: 0;
+  background: url(../images/fondo.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh ;
+}
+
+.login{
+    width: 350px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login input[type="text"],
+.login input[type="password"]{
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.login input[type="submit"]{
+    border: none;
+    text-align: center;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+}
+/* Pagina de registro */
+.Registro{
+    width: 350px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.Registro .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.Registro label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.Registro input[type="text"],
+.Registro input[type="email"],
+.Registro input[type="password"]{
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.Registro input[type="submit"]{
+    border: none;
+    text-align: center;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+}
+/* Pagina principal*/
+Nav{
+    border: black 3px solid;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    background: cadetblue;
+    color:black;
+    font-size: 30px;
+}
+#BP, #BLI, #BPR{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+#SP, #SLI, #SPRO{
+    text-align: justify;
+    border: black 3px solid;
+    margin: 10px;
+    padding: 10px;
+    background:white;
+    color: black;
+    font-size: 30px;
+}
+footer{
+    border: black 3px solid;
+    background: cadetblue;
+    color: black;
+}
+.tabla{
+    border: 1px solid;
+    width: 600px;
+    border-collapse: collapse;
+}
+.tabla img{
+    width: 120px;
+}
+.tabla td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
